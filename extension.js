@@ -81,7 +81,7 @@ function activate(context) {
     try {
       await ensureCLIInstalled();
 
-      // Step 0: Get git repos
+      // Step 0: Get git repositorys
       const gitRepos = await getGitRepos();
       if (gitRepos.length === 0) {
         vscode.window.showErrorMessage("No git repositories found in workspace or subfolders!");

@@ -1,10 +1,10 @@
 {
   "name": "swft-git-push",
   "displayName": "swft.push",
-  "description": "A swft push button push code from VS Code using CLI",
+ "description": "A VS Code extension to push code to GitHub directly from VS Code using a CLI button",
   "icon": "images/logo.png",
   "publisher": "swft-xt",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "keywords": [
     "swft",
     "git",
