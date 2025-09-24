@@ -1,0 +1,30 @@
+{
+  "name": "swft-git-push",
+  "displayName": "swft.push",
+  "description": "A swft push button push code from VS Code using CLI",
+  "icon": "images/logo.png",
+  "publisher": "swft-xt",
+  "version": "0.0.7",
+  "keywords": [
+    "swft",
+    "git",
+    "push",
+    "cli",
+    "vscode"
+  ],
+  "main": "./extension.js",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "gitpush.cli",
+        "title": "🚀 Push with CLI"
+      }
+    ]
+  }
+}
