@@ -18,7 +18,7 @@ function runCLI(command, args = [], cwd) {
     });
 
     cli.on("close", (code) => {
-      if (code === 0) resolve("✅ Push completed!");
+      if (code === 0) resolve("");
       else reject(`Process exited with code ${code}`);
     });
   });
