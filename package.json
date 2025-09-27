@@ -25,6 +25,13 @@
         "command": "gitpush.cli",
         "title": "🚀 Push with CLI"
       }
+    ],
+    "keybindings": [
+      {
+        "command": "gitpush.cli",
+        "key": "ctrl+q",
+        "when": "true"
+      }
     ]
   },
   "dependencies": {
