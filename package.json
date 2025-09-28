@@ -4,7 +4,7 @@
   "description": "A VS Code extension to push code to GitHub directly from VS Code using a CLI button",
   "icon": "images/logo.png",
   "publisher": "swft-xt",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "keywords": [
     "swft",
     "git",

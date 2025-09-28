@@ -21,12 +21,6 @@ No need to open terminal every time!*
 
 ---
 
-### 📸 Demo
-
-![Demo](images/demo.png)
-
----
-
 ### 🚀 Usage 
 
 1. Open a folder with a Git repository.
